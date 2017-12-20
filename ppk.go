@@ -34,7 +34,8 @@ func SavePrivateKey(fileName string, key *rsa.PrivateKey) {
 }
 
 // Saving public key with given name..
-func SavePublicKey(fileName string, pubKey *rsa.PublicKey) {
+func SavePublicKey(fileName string, privateKey *rsa.PrivateKey) {
+	pubKey := &privateKey.PublicKey
 	pub, _ := ssh.NewPublicKey(pubKey)
 	ioutil.WriteFile(fileName+".pub", ssh.MarshalAuthorizedKey(pub), 0777)
 }
