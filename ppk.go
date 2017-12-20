@@ -11,6 +11,7 @@ import (
 	"io/ioutil"
 )
 
+// This func is using for saving private and public key
 func GetPrivateKey() *rsa.PrivateKey {
 	privateKey, err := rsa.GenerateKey(rand.Reader, 2048)
 	if err != nil {
