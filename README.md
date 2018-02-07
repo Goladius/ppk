@@ -18,7 +18,7 @@ This codes, generate two file into your project directory.
     func main() {
     	privateKey := ppk.GetPrivateKey()
     	ppk.SavePrivateKey("private", privateKey)
-    	ppk.SavePublicKey("private", privateKey)
+    	ppk.SavePublicKey("public", privateKey)
     }
 ```
 
