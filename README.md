@@ -1,8 +1,6 @@
 <h1 style='text-align:center !importan; display:block !important;'>Private & Public Key - PPK</h1>
 
-Generating private and public key file for ssh conection. If you learn how to use ssh with Golang you can check my this post:
-
-[https://taluttasgiran.com/golang-ssh-connection-to-remote-server-via-private-key-file/](https://taluttasgiran.com/golang-ssh-connection-to-remote-server-via-private-key-file/)
+Generating private and public key file for ssh conection.
 
 ## How To Use?
 ***Download package***
