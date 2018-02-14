@@ -5,13 +5,13 @@ Generating private and public key file for ssh conection.
 ## How To Use?
 ***Download package***
 
-```go get github.com/goladius/ppk```
+```go get github.com/taluttasgiran/ppk```
 
 This codes, generate two file into your project directory.
 ```
     package main
     
-    import "github.com/goladius/ppk"
+    import "github.com/taluttasgiran/ppk"
     
     func main() {
     	privateKey := ppk.GetPrivateKey()
